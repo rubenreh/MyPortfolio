@@ -1387,5 +1387,23 @@ body.light-theme .quick-link-card p {
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
+        justify-items: center;
+    }
+    
+    .skill-item {
+        max-width: 140px;
+        min-width: 120px;
+        padding: 1.2rem 0.8rem;
+    }
+    
+    .skill-icon img, .skill-icon i {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .skill-name {
+        font-size: 0.9rem;
+        margin-top: 0.3rem;
     }
 } 
