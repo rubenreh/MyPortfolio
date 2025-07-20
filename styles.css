@@ -735,6 +735,7 @@ footer {
     }
 
     .nav-links {
+        display: none;
         position: fixed;
         top: 70px;
         left: 0;
@@ -753,6 +754,7 @@ footer {
     }
 
     .nav-links.active {
+        display: flex;
         transform: translateY(0);
     }
 
