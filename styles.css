@@ -740,10 +740,11 @@ footer {
         top: 70px;
         left: 0;
         width: 100%;
-        height: calc(100vh - 70px);
+        height: auto;
+        max-height: 80vh;
         background: rgba(10, 10, 10, 0.98);
         backdrop-filter: blur(10px);
-        padding: 2rem 1rem;
+        padding: 1rem 0.5rem;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -751,6 +752,7 @@ footer {
         transition: transform var(--transition-speed);
         z-index: 1000;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        overflow-y: auto;
     }
 
     .nav-links.active {
@@ -759,14 +761,14 @@ footer {
     }
 
     .nav-links li {
-        margin: 1.5rem 0;
+        margin: 0.5rem 0;
         width: 100%;
         text-align: center;
     }
 
     .nav-links a {
-        font-size: 1.2rem;
-        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        padding: 0.7rem 1rem;
         display: block;
         border-radius: 8px;
         transition: all var(--transition-speed);
